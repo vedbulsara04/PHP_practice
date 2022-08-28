@@ -11,8 +11,9 @@
   <body>
 	<?php
       $name = "Ved Buslara";
-        echo str_word_count("Ved Buslara") . "<br>";
-        echo "<br>";
+      $str1 = "Ved";
+        echo str_word_count($str1) . "<br> <br>";  
+        echo str_word_count("Ved Buslara") . "<br> <br>";
         echo str_word_count($name);
     ?>
   </body>
